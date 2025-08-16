@@ -1,6 +1,9 @@
 # OpenApi_basics
 
-A minimal, hands-on example demonstrating how to work with OpenAPI in a TypeScript setting—auto-generated documentation, deployment, and integration with APIs. Built with Hono on Cloudflare Workers and includes an OpenAPI spec (`spec.json`).
+A minimal, hands-on example demonstrating how to integrate OpenAPI with a TypeScript + Hono backend deployed on Cloudflare Workers.
+Just like FastAPI, this setup provides a centralized interface to explore, test, and document your API using Swagger UI, powered by the OpenAPI schema defined in spec.json.
+
+You don’t need Postman or any external tool — simply run the app and test all your API endpoints directly in the browser through an interactive Swagger interface.
 
 ---
 
@@ -80,6 +83,11 @@ npm run deploy
 │   └── index.ts            # Core API logic with Hono routes
 └── dist/                   # (Optional) Built assets
 ```
+---
+## Video
+https://github.com/user-attachments/assets/cd8e2b44-deca-4fd4-81bb-43a470a5e517
+
+---
 ## License
 Distributed under the [MIT License](LICENSE). See the LICENSE file for more details.
 
